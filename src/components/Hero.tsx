@@ -66,7 +66,7 @@ export default function Hero() {
               className="space-y-4"
             >
               <h1 className="font-display font-bold text-3xl sm:text-4xl md:text-5xl text-gray-900 tracking-tight leading-[1.25]">
-                AI 시대, 아이를 소비자가 아닌{" "}
+                AI 시대, 아이를 자기주도력을 가진{" "}<br className="hidden sm:inline" />
                 <span className="relative inline-block text-brand-teal">
                   기획자
                   <svg className="absolute -bottom-1.5 left-0 w-full h-2.5 text-brand-yellow/80 pointer-events-none" viewBox="0 0 100 10" preserveAspectRatio="none">
