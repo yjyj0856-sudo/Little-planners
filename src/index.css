@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Sans+KR:wght@300..900&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-5Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-7Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Paperlogy';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Paperlogy', sans-serif !important;
+}
+
+@theme {
+  --font-sans: "Paperlogy", sans-serif;
+  --font-display: "Paperlogy", sans-serif;
+  
+  --color-brand-teal: #1EA4B1;
+  --color-brand-teal-dark: #14707A;
+  --color-brand-teal-tint: #F4FBFB;
+  --color-brand-amber: #D4894A;
+  --color-brand-amber-dark: #B57035;
+  --color-brand-yellow: #FBE01F;
+}
+
+/* Custom visual styles for planning motifs */
+.bg-grid-dots {
+  background-image: radial-gradient(#1EA4B125 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+.bg-blueprint {
+  background-size: 32px 32px;
+  background-image: linear-gradient(to right, #1EA4B112 1px, transparent 1px),
+                    linear-gradient(to bottom, #1EA4B112 1px, transparent 1px);
+}
+
+.sticky-note-shadow {
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.06), 0px 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
